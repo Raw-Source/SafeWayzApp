@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "r+wQhJ8MXEdhZVluwYl8WhOW+AzCOBHEupQLJCwN+t1VemmUoOWLxMmas6asoCmTmlnjACp9mmQilQFPFe/TOg==",
+  "success": true,
+  "projectFilePath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.iOS\\SafeWayzApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Chevaun\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Chevaun\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
+    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.forms\\4.5.0.657\\xamarin.forms.4.5.0.657.nupkg.sha512"
+  ],
+  "logs": []
+}
