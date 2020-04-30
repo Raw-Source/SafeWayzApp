@@ -38,3 +38,5 @@ C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWay
 C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.dll
 C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\ref\SafeWayzApp.dll
 C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.pdb
+C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.csproj.CoreCompileInputs.cache
+C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\XamlC.stamp
