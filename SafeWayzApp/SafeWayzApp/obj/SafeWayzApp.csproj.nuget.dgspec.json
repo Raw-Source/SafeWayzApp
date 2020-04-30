@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj": {}
+    "C:\\Github\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj": {}
   },
   "projects": {
-    "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj": {
+    "C:\\Github\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
+        "projectUniqueName": "C:\\Github\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
         "projectName": "SafeWayzApp",
-        "projectPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
-        "packagesPath": "C:\\Users\\Chevaun\\.nuget\\packages\\",
-        "outputPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\obj\\",
+        "projectPath": "C:\\Github\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
+        "packagesPath": "C:\\Users\\Abdul\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Chevaun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -55,6 +55,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.5.0.657, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           },
           "imports": [
