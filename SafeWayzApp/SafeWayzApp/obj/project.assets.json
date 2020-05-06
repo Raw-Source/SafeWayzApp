@@ -757,23 +757,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Abdul\\.nuget\\packages\\": {},
+    "C:\\Users\\Chevaun\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
+      "projectUniqueName": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
       "projectName": "SafeWayzApp",
-      "projectPath": "C:\\Github\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
-      "packagesPath": "C:\\Users\\Abdul\\.nuget\\packages\\",
-      "outputPath": "C:\\Github\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\obj\\",
+      "projectPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
+      "packagesPath": "C:\\Users\\Chevaun\\.nuget\\packages\\",
+      "outputPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Chevaun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
