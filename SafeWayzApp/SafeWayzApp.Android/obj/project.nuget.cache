@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Kp0PfwOp8O+pwpfen7xVtzN7jvMx2EM8MHg9q9887B8YP/pwyBHiudwJRhopAqgc9gDjhwhxQSNRMa7IigNuUw==",
+  "dgSpecHash": "cyHjVVAuCZOLheTEwLQMkV6eZpNQ4xNlzgpZNkbeJociK8XUt8Xub++oO8vC7f7RH63fGyK0vRFehWJp9+UzGQ==",
   "success": true,
   "projectFilePath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.Android\\SafeWayzApp.Android.csproj",
   "expectedPackageFiles": [
@@ -48,8 +48,14 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.vector.drawable\\28.0.0.3\\xamarin.android.support.vector.drawable.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.versionedparcelable\\28.0.0.3\\xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.viewpager\\28.0.0.3\\xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.build.download\\0.4.11\\xamarin.build.download.0.4.11.nupkg.sha512",
     "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
-    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.forms\\4.5.0.657\\xamarin.forms.4.5.0.657.nupkg.sha512"
+    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.forms\\4.6.0.726\\xamarin.forms.4.6.0.726.nupkg.sha512",
+    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.forms.maps\\4.6.0.726\\xamarin.forms.maps.4.6.0.726.nupkg.sha512",
+    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.googleplayservices.base\\71.1610.0\\xamarin.googleplayservices.base.71.1610.0.nupkg.sha512",
+    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.googleplayservices.basement\\71.1620.0\\xamarin.googleplayservices.basement.71.1620.0.nupkg.sha512",
+    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.googleplayservices.maps\\71.1610.0\\xamarin.googleplayservices.maps.71.1610.0.nupkg.sha512",
+    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.googleplayservices.tasks\\71.1601.0\\xamarin.googleplayservices.tasks.71.1601.0.nupkg.sha512"
   ],
   "logs": []
 }

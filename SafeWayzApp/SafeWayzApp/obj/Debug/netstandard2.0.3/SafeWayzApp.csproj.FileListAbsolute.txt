@@ -7,7 +7,6 @@ C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\Views\Onboardi
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\Views\OnBoarding1.xaml.g.cs
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\Views\OnBoarding2.xaml.g.cs
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\Views\OnBoarding3.xaml.g.cs
-C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.csproj.CoreCompileInputs.cache
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.AssemblyInfoInputs.cache
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.AssemblyInfo.cs
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\bin\Debug\netstandard2.0.3\SafeWayzApp.deps.json
@@ -15,7 +14,6 @@ C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\bin\Debug\netstandard2.0.3\SafeWayzApp.dl
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\bin\Debug\netstandard2.0.3\ref\SafeWayzApp.dll
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\bin\Debug\netstandard2.0.3\SafeWayzApp.pdb
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.csprojAssemblyReference.cache
-C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\XamlC.stamp
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.dll
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\ref\SafeWayzApp.dll
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.pdb
@@ -40,3 +38,5 @@ C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\ref\Saf
 C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.pdb
 C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.csproj.CoreCompileInputs.cache
 C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\XamlC.stamp
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.csproj.CoreCompileInputs.cache
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\XamlC.stamp

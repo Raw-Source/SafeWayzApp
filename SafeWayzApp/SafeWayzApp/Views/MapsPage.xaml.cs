@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SafeWayzApp.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,10 +13,14 @@ namespace SafeWayzApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MapsPage : ContentPage
     {
+        public MapsViewModel VM { get; set; }
         public MapsPage()
         {
             InitializeComponent();
             Shell.Current.FlyoutBehavior = FlyoutBehavior.Flyout;
+            VM = new MapsViewModel();
+            BindingContext = VM;
+            
 
         }
     }

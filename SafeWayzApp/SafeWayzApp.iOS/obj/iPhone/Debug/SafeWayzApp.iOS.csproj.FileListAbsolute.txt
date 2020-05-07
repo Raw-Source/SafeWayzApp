@@ -116,3 +116,10 @@ C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\obj\iPhone\Debug\XamlC.stamp
 C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\obj\iPhone\Debug\SafeWayzApp.iOS.csproj.CopyComplete
 C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\obj\iPhone\Debug\SafeWayzApp.iOS.exe
 C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\obj\iPhone\Debug\SafeWayzApp.iOS.pdb
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\SQLite-net.dll
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_green.dll
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.sqlite3.dll
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Maps.dll
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Maps.iOS.dll

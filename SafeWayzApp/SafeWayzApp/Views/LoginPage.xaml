@@ -8,11 +8,10 @@
              mc:Ignorable="d"
              x:Class="SafeWayzApp.Views.LoginPage"
              BackgroundColor="GreenYellow">
+
     <ContentPage.BindingContext>
-        <viewmodels:LoginViewModel/>
+        <viewmodels:LoginViewModel />
     </ContentPage.BindingContext>
-
-
     <ContentPage.Resources>
         <DataTemplate x:Key="LoginTemplate">
             <StackLayout>
@@ -58,8 +57,7 @@
                         <Button Text="Login"
                                 Command="{Binding LoginCommand}"
                                 BackgroundColor="HotPink"
-                                TextColor="White"
-                                Clicked="OnClicked"/>
+                                TextColor="White"/>
                     </StackLayout>
 
                 </Frame>

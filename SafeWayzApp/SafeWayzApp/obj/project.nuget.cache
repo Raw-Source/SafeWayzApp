@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ycb/NuK0FQVA4xncGbTLzTv4rmY2X4lzICCiehGHAkupLv8x54DRDuFfTbhhDHxlIK1J+58KGQOkKioIIPPI3w==",
+  "dgSpecHash": "rVNccOEZCwWXLplVIurK3+aEjw7i776b8bUdaa0CIJJ0ja2sfKp8SBYkMgS75F6oobMG30++yn3MJKMmNz3Wyg==",
   "success": true,
   "projectFilePath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,8 @@
     "C:\\Users\\Chevaun\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
     "C:\\Users\\Chevaun\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
-    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.forms\\4.5.0.657\\xamarin.forms.4.5.0.657.nupkg.sha512"
+    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.forms\\4.6.0.726\\xamarin.forms.4.6.0.726.nupkg.sha512",
+    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.forms.maps\\4.6.0.726\\xamarin.forms.maps.4.6.0.726.nupkg.sha512"
   ],
   "logs": []
 }
