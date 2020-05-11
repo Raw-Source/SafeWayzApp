@@ -24,7 +24,7 @@ namespace SafeWayzApp.ViewModels
           
         }
 
-        async void ExecuteSignupCommand() => await Shell.Current.GoToAsync("//Login");
+        async void ExecuteSignupCommand() => await Shell.Current.GoToAsync("//login");
 
         async void ExecuteLoginCommand() => await Shell.Current.GoToAsync("//map");
 

@@ -32,7 +32,7 @@
                         <Entry Placeholder="Username" Text="{Binding UserName}" PlaceholderColor="{Binding Color}"/>
                         <Entry Placeholder="Email" Text="{Binding Email}" PlaceholderColor="{Binding Color}"/>
                         <Entry Placeholder="Password" Text="{Binding Password}" PlaceholderColor="{Binding Color}"/>
-                        <Button Text="Sign up"  Command="{Binding LoginCommand}" BackgroundColor="HotPink"/>
+                        <Button Text="Sign up"  Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:LoginViewModel}}, Path=SignupCommand}" BackgroundColor="HotPink"/>
                     </StackLayout>
 
                 </Frame>
@@ -55,7 +55,7 @@
                         <Entry Placeholder="Email" Text="{Binding Email}" PlaceholderColor="{Binding Color}"/>
                         <Entry Placeholder="Password" Text="{Binding Password}" PlaceholderColor="{Binding Color}"/>
                         <Button Text="Login"
-                                Command="{Binding LoginCommand}"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:LoginViewModel}}, Path=LoginCommand}"
                                 BackgroundColor="HotPink"
                                 TextColor="White"/>
                     </StackLayout>

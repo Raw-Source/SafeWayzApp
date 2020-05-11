@@ -4,6 +4,9 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "SafeWayzApp.Android.dll" comes first in this list. */
 		"SafeWayzApp.Android.dll",
 		"FormsViewGroup.dll",
+		"Google.Apis.Core.dll",
+		"Google.Apis.dll",
+		"Newtonsoft.Json.dll",
 		"SafeWayzApp.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_green.dll",

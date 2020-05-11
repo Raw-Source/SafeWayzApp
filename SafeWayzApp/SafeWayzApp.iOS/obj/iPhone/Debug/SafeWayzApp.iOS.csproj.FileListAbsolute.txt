@@ -123,3 +123,8 @@ C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dl
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.sqlite3.dll
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Maps.dll
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Maps.iOS.dll
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\Google.Apis.dll
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\Google.Apis.pdb
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\Google.Apis.Core.dll
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\Google.Apis.Core.pdb
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll

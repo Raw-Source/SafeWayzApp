@@ -13,7 +13,6 @@ C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\bin\Debug\netstandard2.0.3\SafeWayzApp.de
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\bin\Debug\netstandard2.0.3\SafeWayzApp.dll
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\bin\Debug\netstandard2.0.3\ref\SafeWayzApp.dll
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\bin\Debug\netstandard2.0.3\SafeWayzApp.pdb
-C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.csprojAssemblyReference.cache
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.dll
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\ref\SafeWayzApp.dll
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.pdb
@@ -40,3 +39,4 @@ C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWay
 C:\Github\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\XamlC.stamp
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.csproj.CoreCompileInputs.cache
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\XamlC.stamp
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.csprojAssemblyReference.cache

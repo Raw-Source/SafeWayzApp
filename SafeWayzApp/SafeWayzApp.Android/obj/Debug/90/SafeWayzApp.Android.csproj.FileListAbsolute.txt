@@ -1065,3 +1065,8 @@ C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\android\src\mono\com
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\android\src\mono\com\google\android\gms\tasks\OnFailureListenerImplementor.java
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\android\src\mono\com\google\android\gms\tasks\OnSuccessListenerImplementor.java
 C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\android\src\mono\com\google\android\gms\tasks\OnTokenCanceledListenerImplementor.java
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\android\assets\Google.Apis.Core.dll
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\android\assets\Google.Apis.Core.pdb
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\android\assets\Google.Apis.dll
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\android\assets\Google.Apis.pdb
+C:\SafeWayzApp\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll

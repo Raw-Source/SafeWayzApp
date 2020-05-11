@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "rVNccOEZCwWXLplVIurK3+aEjw7i776b8bUdaa0CIJJ0ja2sfKp8SBYkMgS75F6oobMG30++yn3MJKMmNz3Wyg==",
+  "dgSpecHash": "kHhCoNs+7HmEuL6oqf8/kIeSLhK7iV/QVReqP1G2Oe3WKkxSg1HAZNackBNoT9TVHp9v3lmnheWkeQXDUTkltA==",
   "success": true,
   "projectFilePath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Chevaun\\.nuget\\packages\\google.apis\\1.45.0\\google.apis.1.45.0.nupkg.sha512",
+    "C:\\Users\\Chevaun\\.nuget\\packages\\google.apis.core\\1.45.0\\google.apis.core.1.45.0.nupkg.sha512",
     "C:\\Users\\Chevaun\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Chevaun\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Chevaun\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Chevaun\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
     "C:\\Users\\Chevaun\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
     "C:\\Users\\Chevaun\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
