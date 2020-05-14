@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafeWayzApp.iOS", "SafeWayz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SafeWayzApp", "SafeWayzApp\SafeWayzApp\SafeWayzApp.csproj", "{54F6DF66-B64D-44C7-B13F-8A8CD08015BE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SafeWayzAppApi", "SafeWayzAppApi\SafeWayzAppApi.csproj", "{88CC859D-94B9-4CE8-9ED3-F87280AD173F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,18 @@ Global
 		{54F6DF66-B64D-44C7-B13F-8A8CD08015BE}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{54F6DF66-B64D-44C7-B13F-8A8CD08015BE}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{54F6DF66-B64D-44C7-B13F-8A8CD08015BE}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{88CC859D-94B9-4CE8-9ED3-F87280AD173F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88CC859D-94B9-4CE8-9ED3-F87280AD173F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88CC859D-94B9-4CE8-9ED3-F87280AD173F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{88CC859D-94B9-4CE8-9ED3-F87280AD173F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{88CC859D-94B9-4CE8-9ED3-F87280AD173F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{88CC859D-94B9-4CE8-9ED3-F87280AD173F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{88CC859D-94B9-4CE8-9ED3-F87280AD173F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88CC859D-94B9-4CE8-9ED3-F87280AD173F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88CC859D-94B9-4CE8-9ED3-F87280AD173F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{88CC859D-94B9-4CE8-9ED3-F87280AD173F}.Release|iPhone.Build.0 = Release|Any CPU
+		{88CC859D-94B9-4CE8-9ED3-F87280AD173F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{88CC859D-94B9-4CE8-9ED3-F87280AD173F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
