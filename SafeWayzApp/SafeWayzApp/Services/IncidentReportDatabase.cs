@@ -14,7 +14,7 @@ namespace SafeWayzApp.Services
     public class IncidentReportDatabase : IReport
     {
         private SQLiteAsyncConnection userDatabase;
-        public IList<TypeOfIncident> _allIncidents;
+        public ObservableCollection<TypeOfIncident> _allIncidents;
 
         public IncidentReportDatabase()
         {
@@ -46,48 +46,53 @@ namespace SafeWayzApp.Services
 
         private void ServerityOfIncidents()
         {
-            _allIncidents = new List<TypeOfIncident>();
+            _allIncidents = new ObservableCollection<TypeOfIncident>();
 
             var type = new TypeOfIncident
             {
-                IncidentName = "",
-                IncidentColor = "",
+                //Name of Incident
+                IncidentName = "Accident",
+                //Purple
+                IncidentColor = "#370359",
                 IncidentServerity = IncidentServerityEnum.best,
             };
             _allIncidents.Add(type);
 
              type = new TypeOfIncident
             {
-                IncidentName = "",
-                IncidentColor = "",
+                IncidentName = "Robbery",
+                //Blue
+                IncidentColor = "#1bd3e0",
                 IncidentServerity = IncidentServerityEnum.okay,
             };
             _allIncidents.Add(type);
 
             type = new TypeOfIncident
             {
-                IncidentName = "",
-                IncidentColor = "",
+                IncidentName = "Assault",
+                //Grey
+                IncidentColor = "#919491",
                 IncidentServerity = IncidentServerityEnum.nuetral,
             };
             _allIncidents.Add(type);
 
             type = new TypeOfIncident
             {
-                IncidentName = "",
-                IncidentColor = "",
+                IncidentName = "Shooting",
+                //Green
+                IncidentColor = "#00b806",
                 IncidentServerity = IncidentServerityEnum.bad,
             };
             _allIncidents.Add(type);
 
             type = new TypeOfIncident
             {
-                IncidentName = "",
-                IncidentColor = "",
+                IncidentName = "Murder",
+                //Red
+                IncidentColor = "#b80000",
                 IncidentServerity = IncidentServerityEnum.worst,
             };
             _allIncidents.Add(type);
         }
-        
     }
 }
