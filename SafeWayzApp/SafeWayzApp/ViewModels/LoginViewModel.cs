@@ -34,9 +34,9 @@ namespace SafeWayzApp.ViewModels
         {
             SignupCommand = new Command(() => ExecuteSignupCommand());
             LoginCommand = new Command(() => ExecuteLoginCommand());
-            UriCommand = new Command(() => ExecuteUriCommand());
             source = new List<Authentication>();
             CreateAuthenticationCollection();
+            UriCommand = new Command(() => ExecuteUriCommand());
             Detail = new UserDetails();
         }
 
