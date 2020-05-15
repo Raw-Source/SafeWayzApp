@@ -38,6 +38,21 @@
                     </StackLayout>
 
                 </Frame>
+                <Label HorizontalOptions="Center"
+       VerticalOptions="CenterAndExpand">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Terms and conditions"
+                  TextColor="Blue"
+                  TextDecorations="Underline">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:LoginViewModel}}, Path=UriCommand}"
+                                          CommandParameter="https://xamarin.com" />
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
             </StackLayout>
         </DataTemplate>
         <DataTemplate x:Key="RegistrationTemplate">

@@ -4,10 +4,12 @@ using SafeWayzApp.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace SafeWayzApp.ViewModels
@@ -25,36 +27,52 @@ namespace SafeWayzApp.ViewModels
             set { SetProperty(ref _detail, value); }
         }
         public Command SignupCommand { get; private set; }
+        public Command UriCommand { get; private set; }
         public Command LoginCommand { get; private set; }
         public ObservableCollection<Authentication> AuthenticationType { get; private set; }
         public LoginViewModel()
         {
             SignupCommand = new Command(() => ExecuteSignupCommand());
-              LoginCommand = new Command(() => ExecuteLoginCommand());
+            LoginCommand = new Command(() => ExecuteLoginCommand());
+            UriCommand = new Command(() => ExecuteUriCommand());
             source = new List<Authentication>();
             CreateAuthenticationCollection();
             Detail = new UserDetails();
         }
 
+
         async void ExecuteSignupCommand()
         {
-            await Post();
-            await Shell.Current.GoToAsync("//login");
-        }
-
-        async void ExecuteLoginCommand()
-        {
-            await Login(Detail.UserName, Detail.Password);
-
-            if(LoggedIn == true)
+            if((Detail.UserName != null) && (Detail.Password != null) && (Detail.Email != null))
             {
-                await Shell.Current.GoToAsync("//map");
+                await Post();
+                await Shell.Current.GoToAsync("//login");
             }
             else
             {
                 return;
             }
-      
+        }
+
+        async void ExecuteLoginCommand()
+        {
+            if ((Detail.UserName != null) && (Detail.Password != null))
+            {
+                await Login(Detail.UserName, Detail.Password);
+
+                if (LoggedIn == true)
+                {
+                    await Shell.Current.GoToAsync("//map");
+                }
+                else
+                {
+                    return;
+                }
+            }
+            else
+            {
+                return;
+            }
         }
 
         void CreateAuthenticationCollection()
@@ -72,7 +90,7 @@ namespace SafeWayzApp.ViewModels
             {
 
                 var client = new HttpClient();
-                var url = "https://10.0.2.2:5000/api/UserDetails";
+                var url = "https://10.0.2.2:5000/9api/UserDetails";
                 try
                 {
 
@@ -118,5 +136,12 @@ namespace SafeWayzApp.ViewModels
             return false;
         }
         #endregion
+
+
+        
+        void ExecuteUriCommand()
+        {
+            Browser.OpenAsync(new Uri("https://xamarin.com"));
+        }
     }
 }
