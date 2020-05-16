@@ -18,7 +18,7 @@ namespace SafeWayzApp.Services
 
         public IncidentReportDatabase()
         {
-            ServerityOfIncidents();
+      
 
             var dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Incidents.db3");
 
@@ -42,57 +42,5 @@ namespace SafeWayzApp.Services
             {
                 return userDatabase.InsertAsync(incidentReport);
             }
-        }
-
-        private void ServerityOfIncidents()
-        {
-            _allIncidents = new ObservableCollection<TypeOfIncident>();
-
-            var type = new TypeOfIncident
-            {
-                //Name of Incident
-                IncidentName = "Accident",
-                //Purple
-                IncidentColor = "#370359",
-                IncidentServerity = IncidentServerityEnum.best,
-            };
-            _allIncidents.Add(type);
-
-             type = new TypeOfIncident
-            {
-                IncidentName = "Robbery",
-                //Blue
-                IncidentColor = "#1bd3e0",
-                IncidentServerity = IncidentServerityEnum.okay,
-            };
-            _allIncidents.Add(type);
-
-            type = new TypeOfIncident
-            {
-                IncidentName = "Assault",
-                //Grey
-                IncidentColor = "#919491",
-                IncidentServerity = IncidentServerityEnum.nuetral,
-            };
-            _allIncidents.Add(type);
-
-            type = new TypeOfIncident
-            {
-                IncidentName = "Shooting",
-                //Green
-                IncidentColor = "#00b806",
-                IncidentServerity = IncidentServerityEnum.bad,
-            };
-            _allIncidents.Add(type);
-
-            type = new TypeOfIncident
-            {
-                IncidentName = "Murder",
-                //Red
-                IncidentColor = "#b80000",
-                IncidentServerity = IncidentServerityEnum.worst,
-            };
-            _allIncidents.Add(type);
-        }
-    }
+        }    }
 }

@@ -15,7 +15,6 @@ namespace SafeWayzApp.Views
     {
         public LoginViewModel VM { get; set; }
         public LoginPage()
-
         {   
             InitializeComponent();
 

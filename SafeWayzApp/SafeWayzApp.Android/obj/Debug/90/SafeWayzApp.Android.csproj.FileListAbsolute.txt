@@ -1639,3 +1639,6 @@ C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\stamp\
 C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\res\drawable\splash_screen.xml
+C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\res\drawable\splash_logo.jpg
+C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\android\src\crc6474d1ed6bff4fe222\SplashActivity.java

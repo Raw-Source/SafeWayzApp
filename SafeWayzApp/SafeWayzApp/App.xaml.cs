@@ -13,7 +13,7 @@ namespace SafeWayzApp
         {
             InitializeComponent();
 
-          
+
             MainPage = new AppShell();
         }
 

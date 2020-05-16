@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:viewmodels="clr-namespace:SafeWayzApp.ViewModels"
+             mc:Ignorable="d"
+             x:Class="SafeWayzApp.Views.PostingIncidentPage"
+             BackgroundColor="GreenYellow">
+
+    <ContentPage.BindingContext>
+        <viewmodels:PostingViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+       
+         
+            <ScrollView>
+                <StackLayout Orientation="Vertical" Margin="30" Padding="0,90,0,0">
+
+                    <Frame>
+                       <Button Text="Location" BackgroundColor="Turquoise"/>
+                    </Frame>
+                    
+                    <Frame HasShadow="True">
+                       <Entry Text="{Binding Name}" Placeholder="Area" HorizontalTextAlignment="Center"/>
+                    </Frame>
+
+        
+                    <Frame>
+                       <Picker ItemsSource="{Binding IncidentList}" 
+                               Title="--Select Incident--"
+                               ItemDisplayBinding="{Binding IncidentName}"/>
+                    </Frame>
+                 
+                    <Frame>
+                       <Editor Text="{Binding Color}" Placeholder="Description of up to 140 characters" HeightRequest="150"/>
+                    </Frame>
+                <Button x:Name="SaveButton" Text="Check Out" />
+            </StackLayout>
+            </ScrollView>
+    
+    </ContentPage.Content>
+</ContentPage>

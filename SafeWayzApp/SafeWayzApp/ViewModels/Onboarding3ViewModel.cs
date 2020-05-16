@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace SafeWayzApp.ViewModels
 {
-    public class Onboarding3ViewModel :BaseViewModel
+    public class Onboarding3ViewModel : BaseViewModel
     {
         
         public Command GetStartedCommand { get; private set; }
@@ -22,7 +22,7 @@ namespace SafeWayzApp.ViewModels
         async void ExecuteGetStartedCommand()
         {
             await Shell.Current.GoToAsync("//login");
-        }
+        } 
     }
     
 }
