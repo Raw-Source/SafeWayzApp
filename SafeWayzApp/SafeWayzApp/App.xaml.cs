@@ -14,7 +14,7 @@ namespace SafeWayzApp
             InitializeComponent();
 
 
-            MainPage = new CommunityFeedPage();
+            MainPage = new AppShell();
         }
 
         protected override void OnStart()
