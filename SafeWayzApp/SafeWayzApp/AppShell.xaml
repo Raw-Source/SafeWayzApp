@@ -61,9 +61,4 @@
     <FlyoutItem Title="Third">
         <ShellContent ContentTemplate="{DataTemplate local:CommunityFeedPage}"/>
     </FlyoutItem>
-
-
-
-
-
 </Shell>

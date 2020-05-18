@@ -1004,6 +1004,7 @@
         "framework": ".NETStandard,Version=v2.0.3",
         "dependencies": {
           "Google.Apis": "1.45.0",
+          "SafeWayzLibrary": "1.0.0",
           "Xamarin.Essentials": "1.5.3.1",
           "Xamarin.Forms": "4.6.0.726",
           "Xamarin.Forms.Maps": "4.6.0.726",
@@ -1014,6 +1015,16 @@
         },
         "runtime": {
           "bin/placeholder/SafeWayzApp.dll": {}
+        }
+      },
+      "SafeWayzLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/SafeWayzLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SafeWayzLibrary.dll": {}
         }
       }
     }
@@ -2580,6 +2591,11 @@
       "type": "project",
       "path": "../SafeWayzApp/SafeWayzApp.csproj",
       "msbuildProject": "../SafeWayzApp/SafeWayzApp.csproj"
+    },
+    "SafeWayzLibrary/1.0.0": {
+      "type": "project",
+      "path": "../../SafeWayzLibrary/SafeWayzLibrary.csproj",
+      "msbuildProject": "../../SafeWayzLibrary/SafeWayzLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -1,8 +1,5 @@
-﻿using SafeWayzAppApi.Models;
-using System;
-using System.Collections.Generic;
+﻿using SafeWayzLibrary.Models;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace SafeWayzAppApi.Data
 {

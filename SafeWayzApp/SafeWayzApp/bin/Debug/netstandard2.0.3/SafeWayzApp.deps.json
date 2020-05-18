@@ -11,6 +11,7 @@
         "dependencies": {
           "Google.Apis": "1.45.0",
           "NETStandard.Library": "2.0.3",
+          "SafeWayzLibrary": "1.0.0",
           "Xamarin.Essentials": "1.5.3.1",
           "Xamarin.Forms": "4.6.0.726",
           "Xamarin.Forms.Maps": "4.6.0.726",
@@ -140,6 +141,11 @@
             "fileVersion": "4.6.0.446"
           }
         }
+      },
+      "SafeWayzLibrary/1.0.0": {
+        "runtime": {
+          "SafeWayzLibrary.dll": {}
+        }
       }
     }
   },
@@ -232,6 +238,11 @@
       "sha512": "sha512-+iCq0456mZNFKJj66oRCV1W5TE3gDjCG40uW2yX/zeITAUtF+c7K0WLXSQ54838B6cE4B6zBg/AQKltaVdr2iw==",
       "path": "xamarin.forms.maps/4.6.0.726",
       "hashPath": "xamarin.forms.maps.4.6.0.726.nupkg.sha512"
+    },
+    "SafeWayzLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

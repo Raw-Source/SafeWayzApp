@@ -13,6 +13,7 @@ namespace SafeWayzApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PostingIncidentPage : ContentPage
     {
+
         public PostingIncidentPage()
         {
             InitializeComponent();

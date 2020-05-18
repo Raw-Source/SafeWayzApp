@@ -13,15 +13,11 @@ namespace SafeWayzApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MapsPage : ContentPage
     {
-        public MapsViewModel VM { get; set; }
         public MapsPage()
         {
             InitializeComponent();
             Shell.Current.FlyoutBehavior = FlyoutBehavior.Flyout;
-            VM = new MapsViewModel();
-            BindingContext = VM;
-            
-
+            BindingContext = new MapsViewModel();
         }
     }
 }

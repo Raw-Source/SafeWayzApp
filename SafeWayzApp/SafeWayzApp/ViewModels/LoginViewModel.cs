@@ -1,11 +1,9 @@
 ﻿using Newtonsoft.Json;
 using SafeWayzApp.Models;
-using SafeWayzApp.Views;
+using SafeWayzLibrary.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,12 +18,9 @@ namespace SafeWayzApp.ViewModels
 
         public bool LoggedIn { get; set; }
 
-        private UserDetails _detail;
-        public UserDetails Detail
-        {
-            get { return _detail; }
-            set { SetProperty(ref _detail, value); }
-        }
+        public UserDetails detail;
+
+
         public Command SignupCommand { get; private set; }
         public Command UriCommand { get; private set; }
         public Command LoginCommand { get; private set; }
@@ -37,28 +32,29 @@ namespace SafeWayzApp.ViewModels
             source = new List<Authentication>();
             CreateAuthenticationCollection();
             UriCommand = new Command(() => ExecuteUriCommand());
-            Detail = new UserDetails();
+            detail = new UserDetails();
         }
 
 
         async void ExecuteSignupCommand()
         {
-            if((Detail.UserName != null) && (Detail.Password != null) && (Detail.Email != null))
+            if((detail.UserName != null) && (detail.Password != null) && (detail.Email != null))
             {
                 await Post();
                 await Shell.Current.GoToAsync("//login");
             }
             else
             {
+                await Application.Current.MainPage.DisplayAlert("Invalid", "Enter correct details", "Ok");
                 return;
             }
         }
 
         async void ExecuteLoginCommand()
         {
-            if ((Detail.UserName != null) && (Detail.Password != null))
+            if ((detail.UserName != null) && (detail.Password != null))
             {
-                await Login(Detail.UserName, Detail.Password);
+                await Login(detail.UserName, detail.Password);
 
                 if (LoggedIn == true)
                 {
@@ -66,11 +62,13 @@ namespace SafeWayzApp.ViewModels
                 }
                 else
                 {
+                    await Application.Current.MainPage.DisplayAlert("Invalid", "Enter correct details", "Ok");
                     return;
                 }
             }
             else
             {
+                await Application.Current.MainPage.DisplayAlert("Invalid", "Enter correct details", "Ok");
                 return;
             }
         }
@@ -90,11 +88,11 @@ namespace SafeWayzApp.ViewModels
             {
 
                 var client = new HttpClient();
-                var url = "https://10.0.2.2:5000/9api/UserDetails";
+                var url = "https://10.0.2.2:5000/api/UserDetails";
                 try
                 {
 
-                    var json = JsonConvert.SerializeObject(Detail);
+                    var json = JsonConvert.SerializeObject(detail);
                     var content = new StringContent(json, Encoding.UTF8, "application/json");
                     var response = await client.PostAsync(url, content);
 
@@ -123,9 +121,10 @@ namespace SafeWayzApp.ViewModels
                 var content = await response.Content.ReadAsStringAsync();
                 var json = JsonConvert.DeserializeObject(content);
                 var login = json.ToString();
-
-                LoggedIn = true;
-
+                if(login.Contains(username) && login.Contains(password))
+                {
+                    LoggedIn = true;
+                }
                 return true;
             }
             catch (Exception)

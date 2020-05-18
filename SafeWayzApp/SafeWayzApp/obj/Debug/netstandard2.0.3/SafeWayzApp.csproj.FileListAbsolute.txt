@@ -62,3 +62,7 @@ C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\
 C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\ref\SafeWayzApp.dll
 C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.pdb
 C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\Views\PostingIncidentPage.xaml.g.cs
+C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp\bin\Debug\netstandard2.0.3\SafeWayzLibrary.dll
+C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp\bin\Debug\netstandard2.0.3\SafeWayzLibrary.pdb
+C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\SafeWayzApp.csproj.CopyComplete
+C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp\obj\Debug\netstandard2.0.3\Views\PostDetails.xaml.g.cs

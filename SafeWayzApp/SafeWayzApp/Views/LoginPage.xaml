@@ -29,11 +29,11 @@
                     <StackLayout Orientation="Vertical">
                      
                         <Label Text="{Binding Title}"/>
-                        <Entry Placeholder="Name" Text="{Binding Detail.Name}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="Surname" Text="{Binding Detail.Surname}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="Username" Text="{Binding Detail.UserName}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="Email" Text="{Binding Detail.Email}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="Password" Text="{Binding Detail.Password}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Name" Text="{Binding detail.Name}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Surname" Text="{Binding detail.Surname}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Username" Text="{Binding detail.UserName}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Email" Text="{Binding detail.Email}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Password" Text="{Binding detail.Password}" PlaceholderColor="{Binding Color}"/>
                         <Button Text="Sign up"  Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:LoginViewModel}}, Path=SignupCommand}" BackgroundColor="HotPink"/>
                     </StackLayout>
 
@@ -68,8 +68,8 @@
                     <StackLayout Orientation="Vertical">
                     
                         <Label Text="{Binding Title}"/>
-                        <Entry Placeholder="User Name" Text="{Binding Detail.UserName}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="Password" Text="{Binding Detail.Password}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="User Name" Text="{Binding detail.UserName}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Password" Text="{Binding detail.Password}" PlaceholderColor="{Binding Color}"/>
                         <Button Text="Login"
                                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:LoginViewModel}}, Path=LoginCommand}"
                                 BackgroundColor="HotPink"
