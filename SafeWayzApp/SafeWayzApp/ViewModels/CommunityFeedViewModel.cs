@@ -12,6 +12,7 @@ namespace SafeWayzApp.ViewModels
     {
         public ObservableCollection<TimelineModel> Incidents { get; set; }
 
+        public Command PostCommand { get; private set; }
         public CommunityFeedViewModel()
         {
             Incidents = new ObservableCollection<TimelineModel>
@@ -20,7 +21,11 @@ namespace SafeWayzApp.ViewModels
                 new TimelineModel { IncidentType = "Shooting", Area = "Plumstead", IncidentDescription = "Shoot out by a local shop" }
             };
 
-     
+            PostCommand = new Command(() => ExecutePostCommand());
+        }
+        async void ExecutePostCommand()
+        {
+            await Shell.Current.GoToAsync("//report");
         }
     }
 }

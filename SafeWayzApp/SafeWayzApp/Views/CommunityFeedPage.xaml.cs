@@ -40,7 +40,7 @@ namespace SafeWayzApp.Views
             }
             else
             {
-                ReportListView.ItemsSource = keyword.Incidents.Where(i => i.IncidentType.Contains(e.NewTextValue));
+                ReportListView.ItemsSource = keyword.Incidents.Where(i => i.IncidentType.ToLower().Contains(e.NewTextValue.ToLower())) ;
 
                 ReportListView.EndRefresh();
             }

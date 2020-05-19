@@ -21,5 +21,11 @@ namespace SafeWayzApp.Views
             MyArea.Text = area;
             MyLocation.Source = location;
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+               var comment = ChatEntry.Text;
+               MyLabel.Text = comment;
+        }
     }
 }
