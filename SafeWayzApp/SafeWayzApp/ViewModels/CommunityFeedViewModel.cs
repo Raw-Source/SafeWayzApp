@@ -18,10 +18,14 @@ namespace SafeWayzApp.ViewModels
             Incidents = new ObservableCollection<TimelineModel>
             {
                 new TimelineModel { IncidentType = "Accident", Area = "Grassy Park", IncidentDescription = "Car hit a robot in the heap of traffic because of a taxi that lost a wheel in the middle of the road." },
-                new TimelineModel { IncidentType = "Shooting", Area = "Plumstead", IncidentDescription = "Shoot out by a local shop" }
+                new TimelineModel { IncidentType = "Shooting", Area = "Plumstead", IncidentDescription = "Shoot out by a local shop"},
+                new TimelineModel { IncidentType = "Murder", Area = "Mananberg", IncidentDescription = "Man was shot and killed"},
+                new TimelineModel { IncidentType = "Robbery", Area = "Wynberg", IncidentDescription = "local shop looted"},
+                new TimelineModel { IncidentType = "Assault", Area = "Kenilworth", IncidentDescription = "Assault by a local shop" }
+                
             };
-
-            PostCommand = new Command(() => ExecutePostCommand());
+         
+        PostCommand = new Command(() => ExecutePostCommand());
         }
         async void ExecutePostCommand()
         {

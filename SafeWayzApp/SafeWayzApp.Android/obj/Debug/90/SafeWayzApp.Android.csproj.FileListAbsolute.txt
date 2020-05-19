@@ -1648,3 +1648,6 @@ C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\androi
 C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\android\assets\SafeWayzLibrary.pdb
 C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\res\drawable\pin.jpg
 C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\res\drawable\floatbutton.png
+C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\res\drawable\comment.png
+C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\res\drawable\salute.png
+C:\Github\SafeWayzAppProject\SafeWayzApp\SafeWayzApp.Android\obj\Debug\90\res\drawable\report.png

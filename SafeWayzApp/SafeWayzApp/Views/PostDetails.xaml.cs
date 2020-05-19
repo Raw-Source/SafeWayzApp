@@ -15,7 +15,7 @@ namespace SafeWayzApp.Views
         public PostDetails(string incidentDescription, string incidentType, string location, string area)
         {
             InitializeComponent();
-
+         
             MyIncidentType.Text = incidentType;
             MyIncidentDescription.Text = incidentDescription;
             MyArea.Text = area;
