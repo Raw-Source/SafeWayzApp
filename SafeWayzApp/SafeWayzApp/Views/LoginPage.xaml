@@ -13,6 +13,8 @@
         <viewmodels:LoginViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Resources>
+        
+        
         <DataTemplate x:Key="LoginTemplate">
             <StackLayout>
                 <Frame   BackgroundColor="WhiteSmoke"
@@ -27,15 +29,29 @@
                     <StackLayout Orientation="Vertical">
                      
                         <Label Text="{Binding Title}"/>
-                        <Entry Placeholder="Name" Text="{Binding Name}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="Surname" Text="{Binding Surname}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="Username" Text="{Binding UserName}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="Email" Text="{Binding Email}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="Password" Text="{Binding Password}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Name" Text="{Binding detail.Name}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Surname" Text="{Binding detail.Surname}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Username" Text="{Binding detail.UserName}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Email" Text="{Binding detail.Email}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Password" Text="{Binding detail.Password}" PlaceholderColor="{Binding Color}"/>
                         <Button Text="Sign up"  Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:LoginViewModel}}, Path=SignupCommand}" BackgroundColor="HotPink"/>
                     </StackLayout>
 
                 </Frame>
+                <Label HorizontalOptions="Center"
+       VerticalOptions="CenterAndExpand">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Terms and conditions"
+                  TextColor="Blue"
+                  TextDecorations="Underline">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:LoginViewModel}}, Path=UriCommand}"/>
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
             </StackLayout>
         </DataTemplate>
         <DataTemplate x:Key="RegistrationTemplate">
@@ -52,8 +68,8 @@
                     <StackLayout Orientation="Vertical">
                     
                         <Label Text="{Binding Title}"/>
-                        <Entry Placeholder="Email" Text="{Binding Email}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="Password" Text="{Binding Password}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="User Name" Text="{Binding detail.UserName}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Password" Text="{Binding detail.Password}" PlaceholderColor="{Binding Color}"/>
                         <Button Text="Login"
                                 Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:LoginViewModel}}, Path=LoginCommand}"
                                 BackgroundColor="HotPink"

@@ -148,6 +148,16 @@
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {}
         }
+      },
+      "SafeWayzLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/SafeWayzLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SafeWayzLibrary.dll": {}
+        }
       }
     }
   },
@@ -904,12 +914,18 @@
         "xamarin.forms.maps.4.6.0.726.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
+    },
+    "SafeWayzLibrary/1.0.0": {
+      "type": "project",
+      "path": "../../SafeWayzLibrary/SafeWayzLibrary.csproj",
+      "msbuildProject": "../../SafeWayzLibrary/SafeWayzLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0.3": [
       "Google.Apis >= 1.45.0",
       "NETStandard.Library >= 2.0.3",
+      "SafeWayzLibrary >= 1.0.0",
       "Xamarin.Essentials >= 1.5.3.1",
       "Xamarin.Forms >= 4.6.0.726",
       "Xamarin.Forms.Maps >= 4.6.0.726",
@@ -917,23 +933,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Chevaun\\.nuget\\packages\\": {},
+    "C:\\Users\\Abdul\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
+      "projectUniqueName": "C:\\Github\\SafeWayzAppProject\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
       "projectName": "SafeWayzApp",
-      "projectPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
-      "packagesPath": "C:\\Users\\Chevaun\\.nuget\\packages\\",
-      "outputPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\obj\\",
+      "projectPath": "C:\\Github\\SafeWayzAppProject\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
+      "packagesPath": "C:\\Users\\Abdul\\.nuget\\packages\\",
+      "outputPath": "C:\\Github\\SafeWayzAppProject\\SafeWayzApp\\SafeWayzApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Chevaun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -946,7 +962,11 @@
       },
       "frameworks": {
         "netstandard2.0.3": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Github\\SafeWayzAppProject\\SafeWayzLibrary\\SafeWayzLibrary.csproj": {
+              "projectPath": "C:\\Github\\SafeWayzAppProject\\SafeWayzLibrary\\SafeWayzLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

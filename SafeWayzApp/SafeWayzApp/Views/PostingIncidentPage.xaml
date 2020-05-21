@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:viewmodels="clr-namespace:SafeWayzApp.ViewModels"
+             mc:Ignorable="d"
+             x:Class="SafeWayzApp.Views.PostingIncidentPage"
+             BackgroundColor="GreenYellow">
+
+    <ContentPage.BindingContext>
+        <viewmodels:PostingViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+       
+         
+            <ScrollView>
+                <StackLayout Orientation="Vertical" Margin="30" Padding="0,90,0,0">
+
+                    <Frame>
+                    <Button x:Name="gps" Text="Location" BackgroundColor="Turquoise" Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:PostingViewModel}}, Path=LocationCommand}"/>
+                    </Frame>
+                    
+                    <Frame>
+                    <Label x:Name="loco" Text="{Binding Location}" HorizontalTextAlignment="Center"/>
+                    </Frame>
+
+
+                <Frame BackgroundColor="{Binding IncidentColor}">
+                       <Picker ItemsSource="{Binding IncidentList}" 
+                               Title="--Select Incident--"
+                               ItemDisplayBinding="{Binding IncidentName}"
+                               />
+                    </Frame>
+                 
+                    <Frame>
+                    <Editor Text="{Binding IncidentDescription}" Placeholder="Description of up to 140 characters" HeightRequest="150"/>
+                    </Frame>
+                <Button  Text="Post" Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:PostingViewModel}}, Path=PostCommand}"/>
+            </StackLayout>
+            </ScrollView>
+    
+    </ContentPage.Content>
+</ContentPage>

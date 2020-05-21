@@ -1,21 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "kHhCoNs+7HmEuL6oqf8/kIeSLhK7iV/QVReqP1G2Oe3WKkxSg1HAZNackBNoT9TVHp9v3lmnheWkeQXDUTkltA==",
+  "dgSpecHash": "58pPgTNZ2k1SZDQXO4eLDPgkEC8mEPB+/xz/ll68fK8pltKHlKYmAF/CGttCZvcES5uebv/YZSZfGzSfUNJ/3g==",
   "success": true,
-  "projectFilePath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
+  "projectFilePath": "C:\\Github\\SafeWayzAppProject\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Chevaun\\.nuget\\packages\\google.apis\\1.45.0\\google.apis.1.45.0.nupkg.sha512",
-    "C:\\Users\\Chevaun\\.nuget\\packages\\google.apis.core\\1.45.0\\google.apis.core.1.45.0.nupkg.sha512",
-    "C:\\Users\\Chevaun\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Chevaun\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Chevaun\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\Chevaun\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
-    "C:\\Users\\Chevaun\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
-    "C:\\Users\\Chevaun\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
-    "C:\\Users\\Chevaun\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
-    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.forms\\4.6.0.726\\xamarin.forms.4.6.0.726.nupkg.sha512",
-    "C:\\Users\\Chevaun\\.nuget\\packages\\xamarin.forms.maps\\4.6.0.726\\xamarin.forms.maps.4.6.0.726.nupkg.sha512"
+    "C:\\Users\\Abdul\\.nuget\\packages\\google.apis\\1.45.0\\google.apis.1.45.0.nupkg.sha512",
+    "C:\\Users\\Abdul\\.nuget\\packages\\google.apis.core\\1.45.0\\google.apis.core.1.45.0.nupkg.sha512",
+    "C:\\Users\\Abdul\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Abdul\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Abdul\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Abdul\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
+    "C:\\Users\\Abdul\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
+    "C:\\Users\\Abdul\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
+    "C:\\Users\\Abdul\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Abdul\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
+    "C:\\Users\\Abdul\\.nuget\\packages\\xamarin.forms\\4.6.0.726\\xamarin.forms.4.6.0.726.nupkg.sha512",
+    "C:\\Users\\Abdul\\.nuget\\packages\\xamarin.forms.maps\\4.6.0.726\\xamarin.forms.maps.4.6.0.726.nupkg.sha512"
   ],
   "logs": []
 }

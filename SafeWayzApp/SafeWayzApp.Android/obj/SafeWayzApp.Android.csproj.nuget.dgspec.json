@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.Android\\SafeWayzApp.Android.csproj": {}
+    "C:\\Github\\SafeWayzAppProject\\SafeWayzApp\\SafeWayzApp.Android\\SafeWayzApp.Android.csproj": {}
   },
   "projects": {
-    "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.Android\\SafeWayzApp.Android.csproj": {
+    "C:\\Github\\SafeWayzAppProject\\SafeWayzApp\\SafeWayzApp.Android\\SafeWayzApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.Android\\SafeWayzApp.Android.csproj",
+        "projectUniqueName": "C:\\Github\\SafeWayzAppProject\\SafeWayzApp\\SafeWayzApp.Android\\SafeWayzApp.Android.csproj",
         "projectName": "SafeWayzApp.Android",
-        "projectPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.Android\\SafeWayzApp.Android.csproj",
-        "packagesPath": "C:\\Users\\Chevaun\\.nuget\\packages\\",
-        "outputPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.Android\\obj\\",
+        "projectPath": "C:\\Github\\SafeWayzAppProject\\SafeWayzApp\\SafeWayzApp.Android\\SafeWayzApp.Android.csproj",
+        "packagesPath": "C:\\Users\\Abdul\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\SafeWayzAppProject\\SafeWayzApp\\SafeWayzApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Chevaun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj": {
-                "projectPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj"
+              "C:\\Github\\SafeWayzAppProject\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj": {
+                "projectPath": "C:\\Github\\SafeWayzAppProject\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj"
               }
             }
           }
@@ -66,20 +66,20 @@
         }
       }
     },
-    "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj": {
+    "C:\\Github\\SafeWayzAppProject\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
+        "projectUniqueName": "C:\\Github\\SafeWayzAppProject\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
         "projectName": "SafeWayzApp",
-        "projectPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
-        "packagesPath": "C:\\Users\\Chevaun\\.nuget\\packages\\",
-        "outputPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\obj\\",
+        "projectPath": "C:\\Github\\SafeWayzAppProject\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
+        "packagesPath": "C:\\Users\\Abdul\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\SafeWayzAppProject\\SafeWayzApp\\SafeWayzApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Chevaun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -92,7 +92,11 @@
         },
         "frameworks": {
           "netstandard2.0.3": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Github\\SafeWayzAppProject\\SafeWayzLibrary\\SafeWayzLibrary.csproj": {
+                "projectPath": "C:\\Github\\SafeWayzAppProject\\SafeWayzLibrary\\SafeWayzLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -129,6 +133,65 @@
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.6.292, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Github\\SafeWayzAppProject\\SafeWayzLibrary\\SafeWayzLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Github\\SafeWayzAppProject\\SafeWayzLibrary\\SafeWayzLibrary.csproj",
+        "projectName": "SafeWayzLibrary",
+        "projectPath": "C:\\Github\\SafeWayzAppProject\\SafeWayzLibrary\\SafeWayzLibrary.csproj",
+        "packagesPath": "C:\\Users\\Abdul\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\SafeWayzAppProject\\SafeWayzLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
             }
           },
           "imports": [

@@ -47,6 +47,10 @@
     <ShellItem Route="community">
         <ShellContent ContentTemplate="{DataTemplate local:CommunityFeedPage}" />
     </ShellItem>
+
+    <ShellItem Route="report">
+        <ShellContent ContentTemplate="{DataTemplate local:PostingIncidentPage}" />
+    </ShellItem>
     <!--Flyout Items-->
     <FlyoutItem Title="First">
         <ShellContent Style="{StaticResource BaseStyle}" ContentTemplate="{DataTemplate local:CommunityFeedPage}"/>
@@ -57,9 +61,4 @@
     <FlyoutItem Title="Third">
         <ShellContent ContentTemplate="{DataTemplate local:CommunityFeedPage}"/>
     </FlyoutItem>
-
-
-
-
-
 </Shell>

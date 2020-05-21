@@ -62,6 +62,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.GooglePlayServices.Basement.dll",
 		"Xamarin.GooglePlayServices.Maps.dll",
 		"Xamarin.GooglePlayServices.Tasks.dll",
+		"SafeWayzLibrary.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};
