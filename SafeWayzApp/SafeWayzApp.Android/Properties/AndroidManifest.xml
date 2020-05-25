@@ -5,7 +5,7 @@
       <meta-data
              android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-      <meta-data android:name="com.google.android.maps.v2.AIzaSyAlFfTtbQ_MjBvtdeHRxkXFu0FDgNn7MrQ" android:value="AIzaSyAlFfTtbQ_MjBvtdeHRxkXFu0FDgNn7MrQ" />
+      <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAlFfTtbQ_MjBvtdeHRxkXFu0FDgNn7MrQ" />
     </application>
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
