@@ -1826,24 +1826,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Chevaun\\.nuget\\packages\\": {},
+    "C:\\Users\\roget\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.iOS\\SafeWayzApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\roget\\Repos\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.iOS\\SafeWayzApp.iOS.csproj",
       "projectName": "SafeWayzApp.iOS",
-      "projectPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.iOS\\SafeWayzApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\Chevaun\\.nuget\\packages\\",
-      "outputPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\roget\\Repos\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.iOS\\SafeWayzApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\roget\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\roget\\Repos\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Chevaun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\roget\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1857,8 +1857,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj": {
-              "projectPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj"
+            "C:\\Users\\roget\\Repos\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj": {
+              "projectPath": "C:\\Users\\roget\\Repos\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj"
             }
           }
         }

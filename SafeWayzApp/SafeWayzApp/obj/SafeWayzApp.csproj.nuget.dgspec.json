@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj": {}
+    "C:\\Users\\roget\\Repos\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj": {}
   },
   "projects": {
-    "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj": {
+    "C:\\Users\\roget\\Repos\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
+        "projectUniqueName": "C:\\Users\\roget\\Repos\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
         "projectName": "SafeWayzApp",
-        "projectPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
-        "packagesPath": "C:\\Users\\Chevaun\\.nuget\\packages\\",
-        "outputPath": "C:\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\obj\\",
+        "projectPath": "C:\\Users\\roget\\Repos\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp.csproj",
+        "packagesPath": "C:\\Users\\roget\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roget\\Repos\\SafeWayzApp\\SafeWayzApp\\SafeWayzApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Chevaun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\roget\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -79,7 +79,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
