@@ -42,6 +42,10 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "Google.Apis": {
+              "target": "Package",
+              "version": "[1.45.0, )"
+            },
             "NETStandard.Library": {
               "target": "Package",
               "version": "[2.0.3, )"
@@ -52,7 +56,11 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.5.0.657, )"
+              "version": "[4.6.0.726, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[4.6.0.726, )"
             }
           }
         }
@@ -107,6 +115,10 @@
       "frameworks": {
         "netstandard2.0.3": {
           "dependencies": {
+            "Google.Apis": {
+              "target": "Package",
+              "version": "[1.45.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -119,7 +131,15 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.5.0.657, )"
+              "version": "[4.6.0.726, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[4.6.0.726, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           },
           "imports": [

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SafeWayzApp.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,14 +13,15 @@ namespace SafeWayzApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
+        public LoginViewModel VM { get; set; }
         public LoginPage()
-        {
-            InitializeComponent();
-        }
 
-        private async void OnClicked(object sender, EventArgs e)
-        {
-            await Shell.Current.GoToAsync("//map");
+        {   
+            InitializeComponent();
+
+            VM = new LoginViewModel();
+            BindingContext = VM;
         }
     }
+
 }

@@ -12,16 +12,19 @@ namespace SafeWayzApp.ViewModels
     public class LoginViewModel : BaseViewModel
     {
         readonly IList<Authentication> source;
-
+        public Command SignupCommand { get; private set; }
         public Command LoginCommand { get; private set; }
         public ObservableCollection<Authentication> AuthenticationType { get; private set; }
         public LoginViewModel()
-        {   
+        {
+            SignupCommand = new Command(() => ExecuteSignupCommand());
               LoginCommand = new Command(() => ExecuteLoginCommand());
             source = new List<Authentication>();
             CreateAuthenticationCollection();
           
         }
+
+        async void ExecuteSignupCommand() => await Shell.Current.GoToAsync("//login");
 
         async void ExecuteLoginCommand() => await Shell.Current.GoToAsync("//map");
 

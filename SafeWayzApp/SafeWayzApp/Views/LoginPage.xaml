@@ -6,12 +6,12 @@
              xmlns:viewmodels="clr-namespace:SafeWayzApp.ViewModels" 
              xmlns:controls="clr-namespace:SafeWayzApp.Controls"
              mc:Ignorable="d"
-             x:Class="SafeWayzApp.Views.LoginPage">
+             x:Class="SafeWayzApp.Views.LoginPage"
+             BackgroundColor="GreenYellow">
+
     <ContentPage.BindingContext>
-        <viewmodels:LoginViewModel/>
+        <viewmodels:LoginViewModel />
     </ContentPage.BindingContext>
-
-
     <ContentPage.Resources>
         <DataTemplate x:Key="LoginTemplate">
             <StackLayout>
@@ -24,14 +24,15 @@
                                       TranslationY="100"
                                        Margin="20">
 
-                    <StackLayout>
-                        <StackLayout Orientation="Horizontal"></StackLayout>
-                        <Label Text="{Binding Title}"/>
-                        <Entry Placeholder="{Binding Username}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="{Binding Password}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="{Binding Email}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="{Binding Password}" PlaceholderColor="{Binding Color}"/>
+                    <StackLayout Orientation="Vertical">
                      
+                        <Label Text="{Binding Title}"/>
+                        <Entry Placeholder="Name" Text="{Binding Name}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Surname" Text="{Binding Surname}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Username" Text="{Binding UserName}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Email" Text="{Binding Email}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Password" Text="{Binding Password}" PlaceholderColor="{Binding Color}"/>
+                        <Button Text="Sign up"  Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:LoginViewModel}}, Path=SignupCommand}" BackgroundColor="HotPink"/>
                     </StackLayout>
 
                 </Frame>
@@ -39,24 +40,23 @@
         </DataTemplate>
         <DataTemplate x:Key="RegistrationTemplate">
             <StackLayout>
-                <Frame   BackgroundColor="blue"
-                         BorderColor="Black"
-                         HorizontalOptions="Center" 
-                         WidthRequest="350"
-                         HeightRequest="400"
-                         VerticalOptions="End"
-                         TranslationY="200">
+                <Frame    BackgroundColor="WhiteSmoke"
+                                     BorderColor="Black"
+                                      HorizontalOptions="Center" 
+                                      WidthRequest="350"
+                                      HeightRequest="400"
+                                      VerticalOptions="End"
+                                      TranslationY="100"
+                                       Margin="20">
 
-                    <StackLayout>
-                        <StackLayout Orientation="Horizontal"></StackLayout>
+                    <StackLayout Orientation="Vertical">
+                    
                         <Label Text="{Binding Title}"/>
-                        <Entry Placeholder="{Binding Username}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="{Binding Password}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="{Binding Email}" PlaceholderColor="{Binding Color}"/>
-                        <Entry Placeholder="{Binding Password}" PlaceholderColor="{Binding Color}"/>
-                        <Button Text="Register"
-                                Command="{Binding RegisterCommand}"
-                                BackgroundColor="Blue"
+                        <Entry Placeholder="Email" Text="{Binding Email}" PlaceholderColor="{Binding Color}"/>
+                        <Entry Placeholder="Password" Text="{Binding Password}" PlaceholderColor="{Binding Color}"/>
+                        <Button Text="Login"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:LoginViewModel}}, Path=LoginCommand}"
+                                BackgroundColor="HotPink"
                                 TextColor="White"/>
                     </StackLayout>
 
@@ -68,38 +68,7 @@
                                                    Registration="{StaticResource RegistrationTemplate}"
                                                     />
     </ContentPage.Resources>
-
-    <ContentPage.Content>
-        <Grid RowSpacing="0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="2*"/>
-                <RowDefinition Height="100"/>
-
-            </Grid.RowDefinitions>
-            <!--haederbackground-->
-            <BoxView BackgroundColor="Accent" Grid.Row="0"/>
-            <!--haederbackground-->
-            <Button
-                Text="Go to Maps"
-                Command="{Binding LoginCommand}"
-                BackgroundColor="yellow" Grid.Row="1">
-
-            </Button>
-
-            <!--haederbackground-->
-            <CarouselView ItemsSource="{Binding AuthenticationType}"
+    <CarouselView ItemsSource="{Binding AuthenticationType}"
                           ItemTemplate="{StaticResource AuthenticationSelector}">
-            </CarouselView>
-
-
-            <!--<Label Text="Welcome to LoginPage!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Button Text="GoToLogin"
-                    Clicked="OnClicked"
-                    BackgroundColor="Blue"
-                    TextColor="White"/>
-                -->
-        </Grid>
-    </ContentPage.Content>
+    </CarouselView>
 </ContentPage>

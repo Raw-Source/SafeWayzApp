@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.safewayzapp">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
-  <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.INTERNET" />
   <application android:label="SafeWayzApp.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAlFfTtbQ_MjBvtdeHRxkXFu0FDgNn7MrQ" />
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="SafeWayzApp" android:theme="@style/MainTheme" android:name="crc646200787aef6d608e.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -28,5 +32,9 @@
         <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.safewayzapp" />
       </intent-filter>
     </receiver>
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <!-- Needs to be explicitly declared on P+ -->
+    <uses-library android:name="org.apache.http.legacy" android:required="false" />
   </application>
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
 </manifest>

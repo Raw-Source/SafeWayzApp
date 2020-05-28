@@ -7,6 +7,7 @@ namespace SafeWayzApp.Models
     public class Authentication
     {
         public string Name { get; set; }
+        public string Surname { get; set; }
         public string Username { get; set; }
         public string Passsword { get; set; }
 
