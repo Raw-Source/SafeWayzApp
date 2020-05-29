@@ -51,6 +51,10 @@
     <ShellItem Route="report">
         <ShellContent ContentTemplate="{DataTemplate local:PostingIncidentPage}" />
     </ShellItem>
+
+    <ShellItem Route="filter">
+        <ShellContent ContentTemplate="{DataTemplate local:FilterPage}" />
+    </ShellItem>
     <!--Flyout Items-->
     <FlyoutItem Title="First">
         <ShellContent Style="{StaticResource BaseStyle}" ContentTemplate="{DataTemplate local:CommunityFeedPage}"/>

@@ -7,35 +7,33 @@
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              mc:Ignorable="d"
              x:Class="SafeWayzApp.Views.MapsPage">
-    
-    <ContentPage.Content>
-        <Grid Margin="10,35,10,10">
-            <Grid.RowDefinitions>
-                <RowDefinition />
-                <RowDefinition Height="Auto" />
-            </Grid.RowDefinitions>
-            <maps:Map x:Name="map"
-                  ItemsSource="{Binding Locations}">
-                <maps:Map.ItemTemplate>
-                    <DataTemplate>
-                        <maps:Pin Position="{Binding Position}"
-                              Address="{Binding Address}"
-                              Label="{Binding Description}" />
-                    </DataTemplate>
-                </maps:Map.ItemTemplate>
-            </maps:Map>
-            <ScrollView Grid.Row="1"
-                    Orientation="Horizontal">
-                <StackLayout Orientation="Horizontal"
-                         HorizontalOptions="Center">
-                    <Button Text="Add"
-                        Command="{Binding AddLocationCommand}" />
-                    <Button Text="Remove"
-                        Command="{Binding CommunityFeedCommand}" />
-                  
-                </StackLayout>
-            </ScrollView>
 
+    <ContentPage.Content>
+        <Grid>
+            <AbsoluteLayout>
+                <maps:Map x:Name="myMap"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                      IsShowingUser="True"
+                          MoveToLastRegionOnLayoutChange="True"
+                      MapType="Street"
+                      ItemsSource="{Binding Map}"
+                           AbsoluteLayout.LayoutBounds="0,0,1,1"
+                              AbsoluteLayout.LayoutFlags="All">
+                </maps:Map>
+            </AbsoluteLayout>
+            <Button Text="View Timeline"
+                   Margin="20"
+                   Command="{Binding CommunityFeedCommand}"
+                   x:Name="chooseLocationButton"
+                   BackgroundColor="Gray"
+                    TextColor="White"
+             
+                   FontSize="17"
+                    CornerRadius="20"
+                    HeightRequest="40"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start"/>
         </Grid>
     </ContentPage.Content>
     

@@ -14,10 +14,11 @@ namespace SafeWayzApp.Views
     public partial class PostingIncidentPage : ContentPage
     {
 
-        public PostingIncidentPage()
+        public PostingIncidentPage(string address)
         {
             InitializeComponent();
             BindingContext = new PostingViewModel();
+            location.Text = address;
         }
     }
 }

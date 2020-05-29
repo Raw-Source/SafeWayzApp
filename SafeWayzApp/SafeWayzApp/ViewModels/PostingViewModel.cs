@@ -11,7 +11,6 @@ namespace SafeWayzApp.ViewModels
     {
         public ApiServices _apiServices;
         public IncidentReportModel incident;
-        public Command LocationCommand { get; private set; }
         public Command PostCommand { get; private set; }
         public string IncidentColor { get; set; }
         public string GPS { get; set; }
@@ -19,36 +18,9 @@ namespace SafeWayzApp.ViewModels
         public PostingViewModel()
         {
            
-            LocationCommand = new Command(() => ExecuteLocationCommand());
             PostCommand = new Command(() => ExecutePostCommand());
         }
-   
 
-        async void ExecuteLocationCommand()
-        {
-            try
-            {
-                var location = await Geolocation.GetLocationAsync(new GeolocationRequest
-                {
-                    DesiredAccuracy = GeolocationAccuracy.Medium,
-                    Timeout = TimeSpan.FromSeconds(10)
-                }) ;
-                if(location == null)
-                {
-                    await Application.Current.MainPage.DisplayAlert($"Invalid", $"Something is wrong", "Ok");
-                }
-                else
-                {
-
-                    GPS = $"{location.Latitude}, {location.Longitude}";
-                }
-
-            }
-            catch(Exception ex)
-            {
-                await Application.Current.MainPage.DisplayAlert($"Invalid", $"Something is wrong: {ex.Message}", "Ok");
-            }
-        }
         async void ExecutePostCommand()
         {
             bool terms = await Application.Current.MainPage.DisplayAlert($"Acknowlegment", "Please make sure all information is correct", "Yes", "No");
