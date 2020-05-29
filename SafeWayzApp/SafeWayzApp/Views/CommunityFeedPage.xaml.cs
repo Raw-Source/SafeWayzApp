@@ -15,7 +15,7 @@ namespace SafeWayzApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CommunityFeedPage : ContentPage
     {
-      
+   
         public CommunityFeedPage()
         {
             InitializeComponent();
@@ -26,6 +26,7 @@ namespace SafeWayzApp.Views
         {
             var details = e.Item as TimelineModel;
             await Navigation.PushModalAsync(new PostDetails(details.IncidentDescription, details.IncidentType, details.Location, details.Area));
+
         }
 
         private void MySearch_TextChanged(object sender, TextChangedEventArgs e)
@@ -46,6 +47,7 @@ namespace SafeWayzApp.Views
             }
         
         }
+
     }
 }
 

@@ -23,7 +23,7 @@
                     </Frame>
                     
                     <Frame>
-                    <Label x:Name="loco" Text="{Binding Location}" HorizontalTextAlignment="Center"/>
+                    <Label x:Name="location"  HorizontalTextAlignment="Center"/>
                     </Frame>
 
 
